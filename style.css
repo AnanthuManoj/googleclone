@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header div{
+    font-size: 14px;
+    margin: 10px;
+}
+
+.appicon img{
+    width: 25px;
+}
+.userpic img{
+    width: 35px;
+    border-radius: 20px;
+}
+
+.googleicon{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    
+    padding-bottom: 20px;
+}
+.searchbar{
+    display: inline-block;
+    position: relative;
+
+}
+.searchbar input{
+    width: 580px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 18px;
+    border-color: rgb(210, 211, 212);
+    
+}
+.searchbar:hover input{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    border: none;
+    
+}.searchicon img{
+    width: 20px;
+    position: absolute;
+   top: 30px;
+   left: 15px;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+}
+.micicon img{
+    width: 32px;
+   position: absolute;
+   top: 24px;
+   right: 55px;
+}
+.cameraicon img{
+    width: 25px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.buttons button{
+  border: none;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 13px;
+  background-color: rgb(248, 249, 250);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.googlebutton:hover,
+.luckybutton:hover{
+    border: 1px solid rgb(218, 218, 218);
+    box-shadow: 0 0 2px rgba(0,0,0,0.15);
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.add p{
+    font-size: 13px;
+    color: rgb(26, 13, 171);
+}
+.add:hover p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Googleoffer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(77,81,86);
+    font-size: 13px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+.Googleoffer p{
+    margin-left: 8px;
+    color: rgb(26, 13, 171);
+}
+.language1:hover,
+.language2:hover,
+.language3:hover,
+.language4:hover,
+.language5:hover,
+.language6:hover,
+.language7:hover,
+.language8:hover,
+.language9:hover{
+     text-decoration: underline;
+     cursor: pointer;
+}
+.footer{
+   font-size: 14px;
+   
+}
+
+.lowest{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(235, 238, 240);
+    color:  rgb(112,117,122);
+    height: 46px;
+    vertical-align: middle;
+    border-top: 1px solid rgb(206, 206, 206);
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondlowest{
+    position: fixed;
+    bottom: 47px;
+    left: 0;
+    right: 0;
+    background-color:rgb(235, 238, 240);
+    color:  rgb(112,117,122);
+    height: 48px;
+    vertical-align: middle;
+    padding-left: 28px;
+}
+    .leftside,
+    .rightside{
+        display: flex;
+    }
+    .leftside p
+    {
+        margin-right: 30px;
+    }
+    .rightside p{
+        margin-left: 30px;
+    }
+    .rightside{
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+    .about:hover,
+    .advertising:hover,
+    .business:hover,
+    .searchworks:hover,
+    .privacy:hover,
+    .terms:hover,
+    .settings:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
