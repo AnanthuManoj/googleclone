@@ -40,6 +40,7 @@ body{
     border-width: 1px;
     margin-top: 18px;
     border-color: rgb(210, 211, 212);
+    padding-left: 40px;
     
 }
 .searchbar:hover input{
